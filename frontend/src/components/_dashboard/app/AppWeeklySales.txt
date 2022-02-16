@@ -1,0 +1,34 @@
+// material
+import { Card, Box, Typography } from '@mui/material';
+// utils
+import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
+
+// ----------------------------------------------------------------------
+
+export default function AppWeeklySales() {
+  return (
+    <Card>
+      <Box sx={{ p: 3, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }} dir="ltr">
+        <div>
+          <Typography variant="body2" sx={{ opacity: 0.72 }}>
+            Today's Balance
+          </Typography>
+          <Typography variant="h6">$12000</Typography>
+        </div>
+        <Box
+          sx={{
+            width: 45,
+            height: 45,
+            bgcolor: 'primary.main',
+            borderRadius: '12px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}
+        >
+          <AccountBalanceIcon style={{ fill: 'white', marginLeft: '1px' }}/>
+        </Box>
+      </Box>
+    </Card>
+  );
+}

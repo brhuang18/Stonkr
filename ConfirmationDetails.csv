@@ -1,0 +1,4 @@
+Confirmation Number,Order Number,Trade Date,Buy/ Sell,Security,Units,Average Price ($),Brokerage (inc GST.),Net Proceeds ($),Settlement Date,Confirmation Status
+109502672,N134282211,23/11/2020,B,AAPL,365,2.74,10,1010.1,25/11/2020,Confirmed
+104863171,N127734358,24/08/2020,B,AMZN,25,80.6,19.95,2034.95,26/08/2020,Confirmed
+103230931,N125418234,20/07/2020,B,TSLA,26,76.25,19.95,2002.45,22/07/2020,Confirmed
