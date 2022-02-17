@@ -132,7 +132,7 @@ DATABASES = {
 
         'PASSWORD': '3900-H18B-Carlo',
 
-        'HOST': 'comp3900-stonk-backend.chbllirfhnpu.ap-southeast-2.rds.amazonaws.com',
+        'HOST': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
 
         'PORT': '5432',
 
@@ -186,7 +186,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # settings for email
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'stonkr3900email@gmail.com'
-EMAIL_HOST_PASSWORD = 'comp3900h18bcarlo'
+EMAIL_HOST_PASSWORD = 'xxxxxxxxxxxxxxxxxxxxxxxxxx'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
