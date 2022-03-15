@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-g@)ec@ra%3dg_5_5k!%!1ge#9bq=22do$y3r_a-5+83v*32+tm'
+SECRET_KEY = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -126,15 +126,15 @@ DATABASES = {
 
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
 
-        'NAME': 'mydb',
+        'NAME': 'XXXXXXXXXXXXXXXXXXXXX',
 
-        'USER': 'postgres',
+        'USER': 'XXXXXXXXXXXXXXXXXXXXXXXXXX',
 
-        'PASSWORD': '3900-H18B-Carlo',
+        'PASSWORD': 'XXXXXXXXXXXXXXXXXXXXXXXXX',
 
         'HOST': 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
 
-        'PORT': '5432',
+        'PORT': 'XXXXXXXXXXXXXXXXX',
 
     }
 }
@@ -185,7 +185,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # settings for email
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'stonkr3900email@gmail.com'
+EMAIL_HOST_USER = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 EMAIL_HOST_PASSWORD = 'xxxxxxxxxxxxxxxxxxxxxxxxxx'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
